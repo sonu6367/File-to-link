@@ -69,10 +69,10 @@ async def start(b, m):
                 
             )
              return
-        except Exception:
+        except Exception as e:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> <a href='https://t.me/greymatters_bots_discussion'>CLICK HERE FOR SUPPORT </a></b>",
+                text=f"<i>𝓢𝓸𝓶𝓮𝓽𝓱𝓲𝓷𝓰 𝔀𝓮𝓷𝓽 𝔀𝓻𝓸𝓷𝓰</i> <b> {e}<a href='https://t.me/greymatters_bots_discussion'>CLICK HERE FOR SUPPORT </a></b>",
                 
                 disable_web_page_preview=True)
             return
