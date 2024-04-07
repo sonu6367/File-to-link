@@ -24,7 +24,7 @@ logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 
 ppath = "Adarsh/bot/plugins/*.py"
 files = glob.glob(ppath)
-StreamBot.start()
+await StreamBot.start()
 loop = asyncio.get_event_loop()
 
 
