@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Made By [Rk_botz](https://t.me/Rk_botz)",
+                    text="I am Made By [File_to_link](https://t.me/file_to_link_bot_07)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Owner💻", url=f"https://t.me/Rk_botowner")
+                                InlineKeyboardButton("Owner💻", url=f"https://t.me/file_to_link_bot_07")
                             ]
                         ]
                     ),
@@ -42,7 +42,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Subscribe ❤️", url=f"https://t.me/Rk_update")
+                                InlineKeyboardButton("Subscribe ❤️", url=f"https://t.me/file_to_link_bot_07")
                             ]
                         ]
                     ),
