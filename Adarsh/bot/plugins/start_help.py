@@ -120,7 +120,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/greymatters_bots_discussion).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/file_to_link_bot_07).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -130,8 +130,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ Owner", url="t.me/Rk_botowner")],
-                [InlineKeyboardButton("💥 Support Us", url="t.me/Rk_botz")]
+                [InlineKeyboardButton("💁‍♂️ Owner", url="t.me/file_to_link_bot_07")],
+                [InlineKeyboardButton("💥 Support Us", url="t.me/file_to_link_bot_07")]
             ]
         )
     )
