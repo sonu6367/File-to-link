@@ -24,11 +24,12 @@ logging.getLogger("aiohttp.web").setLevel(logging.ERROR)
 
 ppath = "Adarsh/bot/plugins/*.py"
 files = glob.glob(ppath)
-await StreamBot.start()
+
 loop = asyncio.get_event_loop()
 
 
 async def start_services():
+    await StreamBot.start()
     print('\n')
     print('------------------- Initalizing Telegram Bot -------------------')
     bot_info = await StreamBot.get_me()
